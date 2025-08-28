@@ -1,0 +1,20 @@
+﻿  AStarLevel.cpp
+C:\Test\AStarTest\Includes\Level\Level.h(35,22): warning C4251: 'Level::actors': 'std::vector<Actor *,std::allocator<Actor *>>'에서는 'Level'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 함
+  (소스 파일 'Level/AStarLevel.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      'std::vector<Actor *,std::allocator<Actor *>>' 선언을 참조하십시오.
+  
+C:\Test\AStarTest\Includes\Level\Level.h(38,22): warning C4251: 'Level::addRequstedActors': 'std::vector<Actor *,std::allocator<Actor *>>'에서는 'Level'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 함
+  (소스 파일 'Level/AStarLevel.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      'std::vector<Actor *,std::allocator<Actor *>>' 선언을 참조하십시오.
+  
+C:\Test\AStarTest\Includes\Level\Level.h(41,22): warning C4251: 'Level::destroyRequstedActors': 'std::vector<Actor *,std::allocator<Actor *>>'에서는 'Level'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 함
+  (소스 파일 'Level/AStarLevel.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      'std::vector<Actor *,std::allocator<Actor *>>' 선언을 참조하십시오.
+  
+C:\Test\AStarTest\Game\Level\AStarLevel.h(9,1): warning C4172: 지역 변수 또는 임시 의 주소를 반환하는 중
+  Game.vcxproj -> C:\Test\AStarTest\Bin\x64\Debug\Game\Game.exe
+  ..\Lib\Engine\Engine.dll
+  1개 파일이 복사되었습니다.
